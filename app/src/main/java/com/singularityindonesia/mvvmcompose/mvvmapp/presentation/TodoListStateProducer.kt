@@ -8,7 +8,8 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
 /**
- * This class is created to handle the calculations needed by the UI to transform data into ready-to-display data.
+ * This class is created to handle the calculations needed by the UI to reducce data into ready-to-display data.
+ * Data from ViewModel into Ready to display UI State.
  */
 class TodoListStateProducer(
     private val vm: TodoListViewModel,
